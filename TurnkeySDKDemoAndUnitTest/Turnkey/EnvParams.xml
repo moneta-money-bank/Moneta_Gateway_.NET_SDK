@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Parameters>
+  <Environment value="UAT">
+      <SessionTokenRequestUrl>https://apiuat.test.monetaplatebnisluzby.cz/token</SessionTokenRequestUrl>
+      <PaymentOperationActionUrl>https://apiuat.test.monetaplatebnisluzby.cz/payments</PaymentOperationActionUrl>
+      <CashierUrl>https://cashierui-apiuat.test.monetaplatebnisluzby.cz/ui/cashier</CashierUrl>
+      <CashierMobileUrl>https://cashierui-apiqa.test.myriadpayments.com/react-frontend/index.html</CashierMobileUrl>
+      <JavaScriptUrl>https://cashierui-apiuat.test.monetaplatebnisluzby.cz/js/api.js</JavaScriptUrl>
+    </Environment>
+  <Environment value="Production">
+    <SessionTokenRequestUrl>https://api.monetaplatebnisluzby.cz/token</SessionTokenRequestUrl>
+    <PaymentOperationActionUrl>https://api.monetaplatebnisluzby.cz/payments</PaymentOperationActionUrl>
+    <CashierUrl>https://cashierui-api.monetaplatebnisluzby.cz/ui/cashier</CashierUrl>
+    <CashierMobileUrl>https://cashierui-api.myriadpayments.com/react-frontend/index.html</CashierMobileUrl>
+    <JavaScriptUrl>https://cashierui-api.monetaplatebnisluzby.cz/js/api.js</JavaScriptUrl>
+  </Environment>
+</Parameters>
